@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Ayush's Portfolio</title>
+    <meta name="description" content="Get in touch with Ayush for web development projects, consultations, and collaborations">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">Ayush</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="clients.html" class="nav-link">Clients</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Site Container -->
+    <div class="site-container">
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section secondary-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Get In Touch</h1>
+                    <p>Ready to bring your ideas to life? Let's discuss your next project</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2>Let's Start a Conversation</h2>
+                        <p>I'm always excited to work on new projects and collaborate with innovative teams. Whether you need a complete website overhaul or just want to discuss ideas, I'm here to help.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">📧</div>
+                                <div class="contact-text">
+                                    <h3>Email</h3>
+                                    <p>ayush@example.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">📱</div>
+                                <div class="contact-text">
+                                    <h3>Phone</h3>
+                                    <p>+1 (555) 123-4567</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">📍</div>
+                                <div class="contact-text">
+                                    <h3>Location</h3>
+                                    <p>San Francisco, CA</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">🕒</div>
+                                <div class="contact-text">
+                                    <h3>Availability</h3>
+                                    <p>Mon - Fri, 9AM - 6PM PST</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links-section">
+                            <h3>Connect With Me</h3>
+                            <div class="social-links">
+                                <a href="#" class="social-link" aria-label="LinkedIn">
+                                    <span>LinkedIn</span>
+                                </a>
+                                <a href="#" class="social-link" aria-label="GitHub">
+                                    <span>GitHub</span>
+                                </a>
+                                <a href="#" class="social-link" aria-label="Twitter">
+                                    <span>Twitter</span>
+                                </a>
+                                <a href="#" class="social-link" aria-label="Dribbble">
+                                    <span>Dribbble</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contactForm">
+                            <h2>Send Me a Message</h2>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">First Name *</label>
+                                    <input type="text" id="firstName" name="firstName" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Last Name *</label>
+                                    <input type="text" id="lastName" name="lastName" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">Email Address *</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="company">Company/Organization</label>
+                                <input type="text" id="company" name="company">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="projectType">Project Type *</label>
+                                <select id="projectType" name="projectType" required>
+                                    <option value="">Select a project type</option>
+                                    <option value="website-development">Website Development</option>
+                                    <option value="ui-ux-design">UI/UX Design</option>
+                                    <option value="e-commerce">E-commerce Platform</option>
+                                    <option value="web-application">Web Application</option>
+                                    <option value="consultation">Consultation</option>
+                                    <option value="maintenance">Website Maintenance</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="budget">Budget Range</label>
+                                <select id="budget" name="budget">
+                                    <option value="">Select budget range</option>
+                                    <option value="under-5k">Under $5,000</option>
+                                    <option value="5k-10k">$5,000 - $10,000</option>
+                                    <option value="10k-25k">$10,000 - $25,000</option>
+                                    <option value="25k-50k">$25,000 - $50,000</option>
+                                    <option value="50k-plus">$50,000+</option>
+                                    <option value="discuss">Let's Discuss</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="timeline">Project Timeline</label>
+                                <select id="timeline" name="timeline">
+                                    <option value="">Select timeline</option>
+                                    <option value="asap">ASAP</option>
+                                    <option value="1-month">Within 1 Month</option>
+                                    <option value="2-3-months">2-3 Months</option>
+                                    <option value="3-6-months">3-6 Months</option>
+                                    <option value="6-months-plus">6+ Months</option>
+                                    <option value="flexible">Flexible</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Project Details *</label>
+                                <textarea id="message" name="message" rows="6" placeholder="Tell me about your project, goals, and any specific requirements..." required></textarea>
+                            </div>
+                            
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="newsletter" name="newsletter">
+                                    <span class="checkmark"></span>
+                                    Subscribe to my newsletter for web development tips and updates
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="submit-button">
+                                <span>Send Message</span>
+                                <div class="loading-spinner" style="display: none;"></div>
+                            </button>
+                            
+                            <div class="form-message" id="formMessage"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <div class="glass-tile">
+            <section class="faq-section">
+                <div class="container">
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                    <div class="faq-grid">
+                        <div class="faq-tile">
+                            <div class="faq-question">
+                                <div class="faq-icon">⏱️</div>
+                                <h3>What's your typical project timeline?</h3>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Project timelines vary based on complexity, but most websites take 4-8 weeks from start to finish. I'll provide a detailed timeline during our initial consultation.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-tile">
+                            <div class="faq-question">
+                                <div class="faq-icon">🌍</div>
+                                <h3>Do you work with clients remotely?</h3>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Absolutely! I work with clients worldwide through video calls, project management tools, and regular communication to ensure seamless collaboration.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-tile">
+                            <div class="faq-question">
+                                <div class="faq-icon">💻</div>
+                                <h3>What technologies do you specialize in?</h3>
+                            </div>
+                            <div class="faq-answer">
+                                <p>I specialize in modern frontend technologies including React, Vue.js, HTML5, CSS3, JavaScript, and various design tools for creating responsive, performant websites.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-tile">
+                            <div class="faq-question">
+                                <div class="faq-icon">🔧</div>
+                                <h3>Do you provide ongoing maintenance?</h3>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Yes, I offer ongoing maintenance packages to keep your website updated, secure, and performing optimally. We can discuss options that fit your needs.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-tile">
+                            <div class="faq-question">
+                                <div class="faq-icon">📦</div>
+                                <h3>What's included in your web development service?</h3>
+                            </div>
+                            <div class="faq-answer">
+                                <p>My services include design consultation, responsive development, testing, deployment, and basic SEO optimization. Additional services can be discussed based on your needs.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-tile">
+                            <div class="faq-question">
+                                <div class="faq-icon">💬</div>
+                                <h3>How do you handle project communication?</h3>
+                            </div>
+                            <div class="faq-answer">
+                                <p>I maintain regular communication through your preferred channels (email, Slack, etc.) with weekly progress updates and am always available for questions or feedback.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Call to Action -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Get Started?</h2>
+                    <p>Let's turn your vision into reality. I'm here to help you create something amazing.</p>
+                    <div class="cta-buttons">
+                        <a href="#contactForm" class="cta-button primary">Send a Message</a>
+                        <a href="tel:+15551234567" class="cta-button secondary">Call Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    </div> <!-- End Site Container -->
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Ayush</h3>
+                    <p>Creating exceptional digital experiences through innovative frontend development.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Web Development</a></li>
+                        <li><a href="services.html">UI/UX Design</a></li>
+                        <li><a href="services.html">Responsive Design</a></li>
+                        <li><a href="services.html">Performance Optimization</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: ayush@example.com</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" aria-label="GitHub">GitHub</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ayush. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
